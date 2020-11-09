@@ -3,3 +3,48 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+}
+
+main {
+  width: 100%;
+  /* height: 1000px; */
+  background-color: lightgrey;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+aside {
+  width: 25%;
+  height: 400px;
+  background-color: violet;
+}
+
+section {
+  width: 50%;
+  height: 350px;
+  background-color: purple;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+}
