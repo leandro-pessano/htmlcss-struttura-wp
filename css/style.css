@@ -9,26 +9,28 @@
   margin: 0 auto;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .float-left {
   float: left;
 }
 
+/* Header */
 header {
   width: 100%;
   height: 200px;
   background-color: yellow;
 }
 
+/* Main */
 main {
   width: 100%;
   /* height: 1000px; */
   background-color: lightgrey;
-}
-
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 aside {
